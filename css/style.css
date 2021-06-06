@@ -29,6 +29,12 @@ p{
 .p-100{
     padding-bottom: 100px;
 }
+.p-75{
+    padding-bottom: 75px;
+}
+.p-50{
+    padding-top: 50px;
+}
 h3{
     margin-top: 14px;
     font-weight: 900;
@@ -41,7 +47,7 @@ h3{
 .heading-spacing{
     margin-top: 100px;
 }
-.bg-banner{
+.bg-pink{
     background: #FFFBF0;
 }
 .nav-link{
@@ -70,7 +76,7 @@ transition: 0.3s ease;
     border:none;
 }
 .card-body{
-    padding: 12px 40px;
+    padding: 18px 40px;
 }    
 .outer-card{
     width:334px ;
