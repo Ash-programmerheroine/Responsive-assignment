@@ -44,6 +44,7 @@ h3{
    }
 
 /* header(nav + section) */
+
 .heading-spacing{
     margin-top: 100px;
 }
@@ -70,7 +71,8 @@ background: #fff;
 color:#85A019;
 transition: 0.3s ease;
 }
-/* main css */
+/* main section css */
+
 .card{
     border-radius: 20px;
     border:none;
@@ -91,14 +93,9 @@ transition: 0.3s ease;
     background-color: #fff;
     border-top: 0;
 }
-/* // X-Small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap */
 
 
-
- /* //Small devices (landscape phones, 576px and up) */
-
-/* // Medium devices (tablets, 768px and up) */
+/* // Medium devices (phone, 768px and down) */
 @media (max-width: 768px)  {
     h2{
         text-align: center;
@@ -121,11 +118,13 @@ transition: 0.3s ease;
     }
  
  }
+ /* tablet */
  @media (min-width: 768px) and (max-width: 1200px){
      
     .btn-link{
         padding: 5px 14px;
     }
+  
  }
 
 
